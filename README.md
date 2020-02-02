@@ -1,1 +1,1 @@
-taxi-app.github.com
+taxi-app.github.io
