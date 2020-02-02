@@ -1,4 +1,11 @@
 var express = require('express')
+var history =  require ( ' connect-history-api-fallback ' );
+
+var app = express();
+app.use(history());
+history({
+    index: '/index.html'
+  });
 var path = require('path')
 var serveStatic = require('serve-static')
 app = express()
